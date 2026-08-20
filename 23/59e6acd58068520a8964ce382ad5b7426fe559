@@ -1,0 +1,29 @@
+design/portability.md
+  s_411406e8f495c1::t_f6b5c2048c1645 1-5
+design/ui.md
+  s_57c2630956d8eb::t_af9801d5145416 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2359e6acd58068520a8964ce382ad5b7426fe559",
+  "prompts": {},
+  "sessions": {
+    "s_411406e8f495c1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a151fa3c8983fdb70",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_57c2630956d8eb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ae5770ef843c9d170",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
