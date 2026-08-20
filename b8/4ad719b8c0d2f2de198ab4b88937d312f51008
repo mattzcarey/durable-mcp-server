@@ -1,0 +1,19 @@
+CLAUDE.md
+  s_e291b6ea0564e8::t_1fd83fa9d251d2 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b84ad719b8c0d2f2de198ab4b88937d312f51008",
+  "prompts": {},
+  "sessions": {
+    "s_e291b6ea0564e8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8cd21cee-1178-42b6-a5aa-880dc8ae6449",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
