@@ -1,0 +1,125 @@
+.oxlintrc.json
+  s_e291b6ea0564e8::t_f11c09a7f77f1f 9-10,12
+CLAUDE.md
+  s_e291b6ea0564e8::t_918405a41fec6a 13-15,34-35
+README.md
+  s_e291b6ea0564e8::t_ff131cee650ad0 7-13
+apps/mcp-client/env.d.ts
+  s_e291b6ea0564e8::t_9a95b8be08ab4c 1-13
+apps/mcp-client/src/client.tsx
+  s_e291b6ea0564e8::t_b1898b3e18e742 1-441
+apps/mcp-client/src/components/ContentView.tsx
+  s_e291b6ea0564e8::t_37641bd5da4633 1-90
+apps/mcp-client/src/components/ElicitationCard.tsx
+  s_e291b6ea0564e8::t_5917d9b5e45153 1-95
+apps/mcp-client/src/components/HistoryPanel.tsx
+  s_e291b6ea0564e8::t_25aef173d06c8c 1-88
+apps/mcp-client/src/components/PromptCard.tsx
+  s_e291b6ea0564e8::t_37138c5b7f55c2 1-102
+apps/mcp-client/src/components/ResourceCard.tsx
+  s_e291b6ea0564e8::t_5e24a220bfbb96 1-111
+apps/mcp-client/src/components/SchemaFields.tsx
+  s_e291b6ea0564e8::t_683f21993f0342 1-60
+apps/mcp-client/src/components/ToolCard.tsx
+  s_e291b6ea0564e8::t_5d0a5afae8b4b3 1-91
+apps/mcp-client/src/lib/content.test.ts
+  s_e291b6ea0564e8::t_cb7061ea54a97e 1-182
+apps/mcp-client/src/lib/content.ts
+  s_e291b6ea0564e8::t_649f33c9d323f2 1-128
+apps/mcp-client/src/lib/history.test.ts
+  s_e291b6ea0564e8::t_15114115e4bd81 1-116
+apps/mcp-client/src/lib/history.ts
+  s_e291b6ea0564e8::t_c066f7adfd08f4 1-78
+apps/mcp-client/src/lib/schema-form.test.ts
+  s_e291b6ea0564e8::t_7b8ace19dea0a5 1-100
+apps/mcp-client/src/lib/schema-form.ts
+  s_e291b6ea0564e8::t_884119ce13d7e6 1-85
+apps/mcp-client/src/server.ts
+  s_e291b6ea0564e8::t_08e2e6cafcdafc 1-125
+apps/mcp-client/tsconfig.json
+  s_e291b6ea0564e8::t_456a2cd5a5602a 1-4
+apps/mcp-client/vite.config.ts
+  s_e291b6ea0564e8::t_1bcad225f1a300 1-16
+apps/mcp-client/vitest.config.ts
+  s_e291b6ea0564e8::t_9d989ff6d6039a 1-8
+apps/mcp-client/wrangler.jsonc
+  s_e291b6ea0564e8::t_dd7b3c7a8fbe3b 1-32
+apps/mcp-server/env.d.ts
+  s_e291b6ea0564e8::t_97aa007e4400f4 1-10
+apps/mcp-server/package.json
+  s_e291b6ea0564e8::t_52e13c7f6d4f15 4
+apps/mcp-server/src/index.ts
+  s_e291b6ea0564e8::t_a49fb9d52ad629 1-116
+apps/mcp-server/test/mcp-server.test.ts
+  s_e291b6ea0564e8::t_d3e8058454b64d 1-148
+apps/mcp-server/vitest.config.ts
+  s_e291b6ea0564e8::t_13e94b924a496e 1-15
+apps/mcp-server/wrangler.jsonc
+  s_e291b6ea0564e8::t_5c0da2587eddc4 1-13
+package.json
+  s_e291b6ea0564e8::t_d9691030cfe9b4 19-20
+packages/durable-mcp-server/package.json
+  s_e291b6ea0564e8::t_8dc94487d02ec5 5-8
+pnpm-lock.yaml
+  s_e291b6ea0564e8::t_12f20c56ac156d 42-44
+apps/mcp-client/index.html
+  s_7b0f945ffc7959::t_c5bc294325d58b 1-21
+apps/mcp-client/src/styles.css
+  s_7b0f945ffc7959::t_627466702442c7 1-12
+apps/mcp-server/README.md
+  s_7b0f945ffc7959::t_f84ee79369b66a 1-26
+apps/mcp-server/test/env.d.ts
+  s_b15f7cb055ae0f::t_82443d1b74c41c 1
+apps/mcp-server/tsconfig.json
+  s_b15f7cb055ae0f::t_89226cb64a48c3 1-7
+packages/durable-mcp-server/README.md
+  s_55b8f029f63bd3::t_719bddcb84fb63 1-5
+packages/durable-mcp-server/src/index.ts
+  s_55b8f029f63bd3::t_d26daee9dfe47d 1-20
+packages/durable-mcp-server/test/index.test.ts
+  s_55b8f029f63bd3::t_2b70c764a90e1a 1-13
+packages/durable-mcp-server/tsconfig.build.json
+  s_55b8f029f63bd3::t_57c6786e4de106 1-13
+packages/durable-mcp-server/tsconfig.json
+  s_55b8f029f63bd3::t_8a3cef785f6e68 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3a219935e17c0aa1af5d52471c2d487c768b0cff",
+  "prompts": {},
+  "sessions": {
+    "s_55b8f029f63bd3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a2c130900ee559d75",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_7b0f945ffc7959": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a2e9484e88bdaf74d",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_b15f7cb055ae0f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-af14ffa0741a9afad",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_e291b6ea0564e8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8cd21cee-1178-42b6-a5aa-880dc8ae6449",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
