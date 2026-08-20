@@ -1,0 +1,19 @@
+// The two config obligations (RFC 001 §4.7), both mechanical: the TaskRunner
+// Durable Object binding and its SQLite migration. TaskRunner reaches the
+// executor via ctx.exports.TaskExecutor (on by default at this compatibility
+// date), so no TASK_EXECUTOR service binding is needed.
+{
+  "name": "report-task-example",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-20",
+  "vars": {
+    // The report API the send_report / approve_report steps call. The test
+    // suite serves it from an auxiliary workerd worker; point it at your own
+    // endpoint for wrangler dev / deploy.
+    "REPORT_API_URL": "https://report-api.example.com",
+  },
+  "durable_objects": {
+    "bindings": [{ "name": "TASK_RUNNER", "class_name": "TaskRunner" }],
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["TaskRunner"] }],
+}

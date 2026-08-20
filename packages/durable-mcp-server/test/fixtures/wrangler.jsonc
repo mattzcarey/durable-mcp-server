@@ -1,0 +1,25 @@
+// The package fixture worker (design/002 §3). The self-referencing service
+// binding (service == this worker's name) is rewritten by the vitest plugin
+// to the current worker, making env.TASK_EXECUTOR a real RPC binding to the
+// fixture's own TaskExecutor export — the decision-D6 fallback path.
+{
+  "name": "durable-mcp-fixture",
+  "main": "./worker.ts",
+  "compatibility_date": "2026-08-20",
+  "durable_objects": {
+    "bindings": [
+      { "name": "TASK_RUNNER", "class_name": "TaskRunner" },
+      { "name": "TASK_RUNNER_REAL", "class_name": "RealTaskRunner" },
+      { "name": "TASK_RUNNER_LIB", "class_name": "LibraryTaskRunner" },
+    ],
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["TaskRunner", "RealTaskRunner", "LibraryTaskRunner"],
+    },
+  ],
+  "services": [
+    { "binding": "TASK_EXECUTOR", "service": "durable-mcp-fixture", "entrypoint": "TaskExecutor" },
+  ],
+}

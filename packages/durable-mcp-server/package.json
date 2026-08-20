@@ -1,0 +1,38 @@
+{
+  "name": "durable-mcp-server",
+  "version": "0.0.0",
+  "private": true,
+  "description": "MCP Tasks for stateless MCP servers on Cloudflare Workers, backed by Durable Objects",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "types": "wrangler types test/fixtures/env.d.ts -c test/fixtures/wrangler.jsonc --include-runtime false",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.0.0",
+    "@cloudflare/workers-types": "^5.20260729.1",
+    "@modelcontextprotocol/server": "2.0.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.11",
+    "wrangler": "^4.115.0"
+  },
+  "peerDependencies": {
+    "@modelcontextprotocol/server": "2.0.0"
+  }
+}

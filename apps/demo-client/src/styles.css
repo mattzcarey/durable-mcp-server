@@ -1,0 +1,195 @@
+/* Tailwind ignores node_modules by default, so we source Kumo for class extraction. */
+@source "../node_modules/@cloudflare/kumo/dist/**/*.{js,jsx,ts,tsx}";
+@import "tailwindcss";
+@import "@cloudflare/kumo/styles/tailwind";
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* The stage: every layer (scene, outgoing scene, sprite) fills the box and
+   the inlined SVG scales to it. Scenes may read --build-progress (0..1) and
+   --story-accent, both set on the stage container. */
+.stage-layer {
+  position: absolute;
+  inset: 0;
+}
+
+.stage-layer > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.stage-dark {
+  background: radial-gradient(
+    ellipse at center,
+    color-mix(in oklab, var(--story-accent, #f6821f) 18%, transparent),
+    transparent 70%
+  );
+}
+
+/* Scene crossfade: the incoming scene fades in over the outgoing one, which
+   the Stage keeps underneath (faded out, `forwards`) until the next swap. */
+@keyframes scene-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scene-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.scene-in {
+  animation: scene-in 700ms ease-out both;
+}
+
+.scene-out {
+  animation: scene-out 700ms ease-in forwards;
+}
+
+/* Sprites: a non-persistent sprite rises, holds, and fades out over
+   SPRITE_TTL_MS (6s, src/lib/playthrough.ts — `liveSprites` drops it as the
+   fade ends); a pinned sprite rises and stays until the scene changes. */
+@keyframes sprite-fade {
+  0% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  8% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  78% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sprite-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sprite-fade {
+  animation: sprite-fade 6s ease-in-out forwards;
+}
+
+.sprite-pin {
+  animation: sprite-in 500ms ease-out both;
+}
+
+/* A landing sprite nudges the whole stage — a light shake. Two identical
+   keyframe sets under alternating names, so swapping the class on each new
+   sprite restarts the animation without remounting the scene. */
+@keyframes stage-nudge-odd {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-3px);
+  }
+  40% {
+    transform: translateX(3px);
+  }
+  60% {
+    transform: translateX(-2px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+}
+
+@keyframes stage-nudge-even {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-3px);
+  }
+  40% {
+    transform: translateX(3px);
+  }
+  60% {
+    transform: translateX(-2px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+}
+
+.stage-nudge-odd {
+  animation: stage-nudge-odd 450ms ease-in-out;
+}
+
+.stage-nudge-even {
+  animation: stage-nudge-even 450ms ease-in-out;
+}
+
+/* Log lines land one at a time, server-paced; give each a soft entrance. */
+@keyframes log-enter {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.log-enter {
+  animation: log-enter 400ms ease-out both;
+}
+
+/* The utilities drawer slides in from the right edge. */
+@keyframes drawer-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.drawer-in {
+  animation: drawer-in 200ms ease-out both;
+}
+
+/* Crisis countdown in its last stretch: an urgent pulse. */
+@keyframes crisis-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(239 68 68 / 0.55);
+  }
+  50% {
+    box-shadow: 0 0 0 7px rgb(239 68 68 / 0);
+  }
+}
+
+.crisis-critical {
+  animation: crisis-pulse 0.8s ease-out infinite;
+}

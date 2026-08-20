@@ -1,0 +1,32 @@
+{
+  "name": "task-demo",
+  "main": "src/server.ts",
+  "compatibility_date": "2026-08-20",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "assets": {
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/agents/*"],
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "class_name": "MyAgent",
+        "name": "MyAgent",
+      },
+    ],
+  },
+
+  "migrations": [
+    {
+      "new_sqlite_classes": ["MyAgent"],
+      "tag": "v1",
+    },
+  ],
+
+  "observability": {
+    "logs": {
+      "enabled": true,
+    },
+  },
+}
