@@ -1,0 +1,21 @@
+design/brief.md
+  s_30d06de37a588c::t_ad7ca8f2a666e1 1-71
+docs/brief.md
+  s_30d06de37a588c::t_81d4d4711ca463 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "be59dd8b07634fdad7725137f0f30089f8728654",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
