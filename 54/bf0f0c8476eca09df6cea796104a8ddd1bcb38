@@ -1,0 +1,53 @@
+CLAUDE.md
+  s_30d06de37a588c::t_a7181140d55338 10,16-17
+apps/mcp-client/src/mcp-tasks/task-lane.ts
+  s_30d06de37a588c::t_b1a62397de87b1 1-382
+pnpm-lock.yaml
+  s_30d06de37a588c::t_b9df3c40b4e3ff 41-43,69-71
+apps/mcp-client/README.md
+  s_e5917d1ea4b002::t_99e5da667054ce 16-22
+apps/mcp-client/package.json
+  s_e5917d1ea4b002::t_61d0c0ac0dc379 20-21,32
+apps/mcp-client/src/mcp-tasks/schema.test.ts
+  s_e5917d1ea4b002::t_7ed9748841aea6 1-145
+apps/mcp-client/src/mcp-tasks/schema.ts
+  s_e5917d1ea4b002::t_254d163c3c6340 1-158
+apps/mcp-client/src/mcp-tasks/task-lane.test.ts
+  s_e5917d1ea4b002::t_cbda5b8c7b239f 1-436
+apps/mcp-client/src/server.ts
+  s_e5917d1ea4b002::t_bef5b50aec863a 3-4,17-28,130-232
+docs/mcp-client-patches.md
+  s_19b60055de3fba::t_fca83ea369eea3 1-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "54bf0f0c8476eca09df6cea796104a8ddd1bcb38",
+  "prompts": {},
+  "sessions": {
+    "s_19b60055de3fba": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-aa255f30a076c2387",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_e5917d1ea4b002": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-acbdf8b225f9eb005",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
