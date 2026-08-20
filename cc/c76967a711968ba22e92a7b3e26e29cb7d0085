@@ -1,0 +1,19 @@
+CLAUDE.md
+  s_e38f29bab10138::t_5f6add2777df26 17,19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ccc76967a711968ba22e92a7b3e26e29cb7d0085",
+  "prompts": {},
+  "sessions": {
+    "s_e38f29bab10138": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a97e92c2a6d0620d9",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
