@@ -1,0 +1,41 @@
+CLAUDE.md
+  s_75ab7a5779f64d::t_60bfa66cb0f5ab 5-6,12,18-19,21
+design/001-durable-mcp-server.md
+  s_d0637e0876fa85::t_872235bf85f380 1-636
+design/mcp-client-patches.md
+  s_8f394feb946311::t_a6c6f9a7c1ea78 1-9
+design/ui.md
+  s_75ab7a5779f64d::t_35a7ec4de66459 3-5,8-109
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2ae555590f9a12c41fbb45655919482bd84757a1",
+  "prompts": {},
+  "sessions": {
+    "s_75ab7a5779f64d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a3a013e63f8f3fa84",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_8f394feb946311": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a7d7bc7a9dff93dda",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_d0637e0876fa85": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a9d37632b2a39ecc5",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
