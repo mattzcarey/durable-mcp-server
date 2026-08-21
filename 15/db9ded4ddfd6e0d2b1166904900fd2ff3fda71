@@ -1,0 +1,119 @@
+apps/mcp-client/src/lib/pit-window.test.ts
+  s_48aa9e3e9ff5fd::t_55c441fb8aa363 1-104
+apps/mcp-client/src/lib/race-summary.test.ts
+  s_30d06de37a588c::t_fc20e8caeb1a1f 1-113
+apps/mcp-client/src/lib/task-radio.test.ts
+  s_30d06de37a588c::t_6697c233816725 17
+apps/mcp-client/src/lib/tasks.test.ts
+  s_30d06de37a588c::t_f14624a63353c7 80-86,96-142,259
+apps/mcp-client/src/lib/tasks.ts
+  s_30d06de37a588c::t_2e45480b2970f5 44-48,50-56,121-126,134,137-146,164,173-176
+apps/mcp-client/src/mcp-tasks/schema.ts
+  s_48aa9e3e9ff5fd::t_190d892a1a0162 46-51
+apps/mcp-client/src/client.tsx
+  s_8e8fd10a202c03::t_bcad756615d020 4,6,9,19-20,24-25,27,133-136,171,219-228,240,249,251,257-258,260-293,297-322,342-343,350-351,515-528,533-535,537,539-552,556-558,569-593,598-601,606
+apps/mcp-client/src/components/PitWindow.tsx
+  s_9876f89a7ee324::t_97471ae765ffd0 1-103
+apps/mcp-client/src/components/RaceSummaryPanel.tsx
+  s_9876f89a7ee324::t_879a9b1aec0dc0 1-101
+apps/mcp-client/src/components/RaceTrack.tsx
+  s_9876f89a7ee324::t_39022a5dd31b5c 184,193-212,251,258-269
+apps/mcp-client/src/components/TimingTower.tsx
+  s_006c4ac42b2aab::t_6954e26a69f610 2-4,25-39,49-53,59,65,89-95,106,111,115,117-126,133,144-156,158-168,176-178,180-184,187-196
+apps/mcp-client/src/lib/pit-window.ts
+  s_3355b6c8166c42::t_391f9ae8d01a31 1-82
+apps/mcp-client/src/lib/poll-controls.test.ts
+  s_9876f89a7ee324::t_e7f9ec542d0298 1-49
+apps/mcp-client/src/lib/poll-controls.ts
+  s_9876f89a7ee324::t_25304913231624 1-48
+apps/mcp-client/src/lib/race-state.test.ts
+  s_9876f89a7ee324::t_d33a7d1708e0a5 112-130
+apps/mcp-client/src/lib/race-state.ts
+  s_9876f89a7ee324::t_2fcd4211851e2b 40-46,99-110
+apps/mcp-client/src/lib/race-summary.ts
+  s_3355b6c8166c42::t_c9dbbd796c26a5 1-87
+apps/mcp-client/src/lib/race-telemetry.test.ts
+  s_3ac164dea41ef6::t_40ff09792bcf07 1-100
+apps/mcp-client/src/lib/race-telemetry.ts
+  s_9876f89a7ee324::t_aa21d09a550ac2 1-114
+apps/mcp-client/src/lib/task-radio.ts
+  s_9876f89a7ee324::t_82d287fdf1a58c 7-8,30-60,63-70,72,82-85,90-92,94,96-112
+apps/mcp-client/src/lib/track-position.test.ts
+  s_8e8fd10a202c03::t_a8c6ec52fd31f3 16,98-175
+apps/mcp-client/src/lib/track-position.ts
+  s_3355b6c8166c42::t_44217a3b251a90 6-8,21-22,32-33,35-36,97-160,162-165
+apps/mcp-client/src/mcp-tasks/schema.test.ts
+  s_9876f89a7ee324::t_e22253e0741c86 36-40
+apps/mcp-client/src/mcp-tasks/task-lane.test.ts
+  s_9876f89a7ee324::t_fdb628d13150b5 431-445
+apps/mcp-client/src/mcp-tasks/task-lane.ts
+  s_9876f89a7ee324::t_e0cb49352c7ffe 349-351,355-357,359-362,367
+apps/mcp-client/src/server.ts
+  s_8e8fd10a202c03::t_9a78c133ebe8e5 73-78,315-378,458,516
+apps/mcp-client/src/styles.css
+  s_9876f89a7ee324::t_10e7497ff0cc49 36-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "15db9ded4ddfd6e0d2b1166904900fd2ff3fda71",
+  "prompts": {},
+  "sessions": {
+    "s_006c4ac42b2aab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a114479f677a28c19",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_3355b6c8166c42": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a5f8725ef59ddcac9",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_3ac164dea41ef6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ada4efe4b3c3e58ae",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_48aa9e3e9ff5fd": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a01a4e-a621-7718-bce5-38812f5c17b0",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_8e8fd10a202c03": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a14e141390da02c1d",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_9876f89a7ee324": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a7178d4b2c4a81681",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
