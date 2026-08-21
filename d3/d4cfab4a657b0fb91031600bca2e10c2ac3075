@@ -1,0 +1,61 @@
+packages/durable-mcp-server/src/do/task-runner.ts
+  s_30d06de37a588c::t_162510ac8ab6a2 34,73-99,126-132,141,156,177-178,189,207,228-229,233-237,256-278,324-333,345-360,534-544,560-561,564-581,583-590,597,601-603,802-805,824-827,829-830,833,836,840-842,875-877,914-1024,1027-1029,1031-1038,1040,1048,1054,1059-1076,1127-1132,1134-1137,1143-1148,1151-1155,1163-1209,1266,1428-1432,1440,1448,1455,1490,1569-1582,1700-1712,1730
+packages/durable-mcp-server/src/handler/tasks-router.ts
+  s_48aa9e3e9ff5fd::t_538a3418c781fd 113-117,121-128,289,292-295
+packages/durable-mcp-server/src/index.ts
+  s_30d06de37a588c::t_b72d1caf69d71d 34,36,45,49,53,61
+packages/durable-mcp-server/test/do/inflight-wake.test.ts
+  s_30d06de37a588c::t_b8caa9aa71e201 1-258
+packages/durable-mcp-server/test/do/status-meta.test.ts
+  s_30d06de37a588c::t_2acf72fda2bbd4 1-206
+packages/durable-mcp-server/test/do/workflow-offer.test.ts
+  s_30d06de37a588c::t_b0ceda1159e5d3 1-243
+packages/durable-mcp-server/test/unit/replay-step.test.ts
+  s_30d06de37a588c::t_0c964075acf33f 14,38-40,47,57-58,84-92,352,360,368-432
+packages/durable-mcp-server/src/do/protocol.ts
+  s_166bab338de157::t_8ffe7dafaff774 60-66,102-127,129
+packages/durable-mcp-server/src/step/replay-step.ts
+  s_166bab338de157::t_785f1d26688803 35,103-106,229-248,252-256,259-260
+packages/durable-mcp-server/test/do/offer.test.ts
+  s_166bab338de157::t_86020e9c08b4b1 1-421
+packages/durable-mcp-server/test/do/workflow-status-meta.test.ts
+  s_166bab338de157::t_adb426e88bd264 1-85
+packages/durable-mcp-server/test/fixtures/worker.ts
+  s_166bab338de157::t_e466e1154ecd94 33,51-59,266-356
+packages/durable-mcp-server/test/http/offer-flows.test.ts
+  s_166bab338de157::t_bb5316c7fb8357 1-139
+packages/durable-mcp-server/test/http/status-meta.test.ts
+  s_166bab338de157::t_d1351e23166bcf 1-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d3d4cfab4a657b0fb91031600bca2e10c2ac3075",
+  "prompts": {},
+  "sessions": {
+    "s_166bab338de157": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a4249e54b2888269e",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_48aa9e3e9ff5fd": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a01a4e-a621-7718-bce5-38812f5c17b0",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
