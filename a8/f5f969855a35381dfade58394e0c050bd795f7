@@ -1,0 +1,129 @@
+apps/mcp-server/src/story/arc-odyssey.ts
+  s_30d06de37a588c::t_2f190e8a638690 1-2426
+apps/mcp-server/src/story/uris.ts
+  s_48aa9e3e9ff5fd::t_0c97d1ba0e006c 1-18
+apps/mcp-server/src/story/validate.ts
+  s_30d06de37a588c::t_307d7a948c31c4 1-377
+apps/mcp-server/test/datacenter.test.ts
+  s_30d06de37a588c::t_aabb280bea56c9 1-229
+apps/mcp-server/test/stories.test.ts
+  s_30d06de37a588c::t_9cd345530129d8 1-220
+apps/mcp-server/test/story-walk.test.ts
+  s_30d06de37a588c::t_126d197baedc5a 2-8,12-16,18-19,21-27,29-40,43-64,68-73,75-95,98-110,114-129,132-147,151-211,215-240,242-256,260-266,269-280,282-286,290-321,324-330,334-340
+apps/mcp-server/test/support/story-sim.ts
+  s_30d06de37a588c::t_40d59149fefcf4 1-273
+apps/mcp-server/README.md
+  s_c85d1e6a21c741::t_c641db64d262a3 3,5,7,9,11,13,15-37,40-44,46,48,50,52,54,56,64,73
+apps/mcp-server/src/index.ts
+  s_c85d1e6a21c741::t_7d765c1133072f 3-8,16-30,32,35-40,42-48,53-66,68-71,74-80,82-112,114-125
+apps/mcp-server/src/stories/datacenter/art.ts
+  s_a4cb06345ab3b8::t_e8e2b396250cf2 1-249
+apps/mcp-server/src/stories/datacenter/story.ts
+  s_4d10205b919a85::t_9cf0b9f86635df 1-283
+apps/mcp-server/src/stories/index.ts
+  s_a4cb06345ab3b8::t_53b6a31ac1eefc 1-8
+apps/mcp-server/src/stories/odyssey/story.ts
+  s_4d10205b919a85::t_1fc00538b89e36 1-10
+apps/mcp-server/src/story/arc-crisis-wildlife-endgame.ts
+  s_1042204f02f1d6::t_cb839f95c63b43 1-2420
+apps/mcp-server/src/story/arc-land-permits.ts
+  s_1928c3dff722ba::t_b8980473609953 1-1470
+apps/mcp-server/src/story/arc-power-water.ts
+  s_4d10205b919a85::t_2797f8bdcf3bf6 1-1532
+apps/mcp-server/src/story/arc-supply-labor.ts
+  s_4d10205b919a85::t_f05b7426931e7e 1-1861
+apps/mcp-server/src/story/datacenter-shared.ts
+  s_4d10205b919a85::t_6c61b9964e3ad5 1-92
+apps/mcp-server/src/story/format.ts
+  s_a4cb06345ab3b8::t_cbda2da6f708a8 2-37,40-41,43-44,46-47,49-52,54-56,58-60,62-67,69-74,76-82,84-98,100-202,205-207,210-215,218-221,224-226,229-259,262-277,280-320,324-326,328-329,332-342,350-352,354,356,359-391
+apps/mcp-server/src/story/index.ts
+  s_a4cb06345ab3b8::t_a10fe56883a55d 1-50
+apps/mcp-server/src/story/resources.ts
+  s_a4cb06345ab3b8::t_bca565b50d36d2 2-7,10-12,14-21,24-33,35,38-44,47,49-88
+apps/mcp-server/src/story/svg.ts
+  s_a4cb06345ab3b8::t_208c6515ef1428 1-25
+apps/mcp-server/src/story/walk.ts
+  s_a4cb06345ab3b8::t_a2598633dac491 1-444
+apps/mcp-server/test/adventure.test.ts
+  s_4d10205b919a85::t_f75b1f45389101 1-359
+apps/mcp-server/test/mcp-server.test.ts
+  s_a4cb06345ab3b8::t_241a3a36379b24 3,5-6,27,44-45,47-58,61-72,74-93
+apps/mcp-server/test/odyssey.test.ts
+  s_c85d1e6a21c741::t_2a36b0866689fd 1-183
+apps/mcp-server/test/story-validate.test.ts
+  s_a4cb06345ab3b8::t_d41a17067f02d7 1-456
+apps/mcp-server/test/support/datacenter-routes.ts
+  s_4d10205b919a85::t_3aef44bf4f9391 1-152
+apps/mcp-server/test/support/fixture-story.ts
+  s_a4cb06345ab3b8::t_2f19fd81de45fb 1-283
+apps/mcp-server/test/support/jsonrpc.ts
+  s_a4cb06345ab3b8::t_b92b7697b889d8 29-30,67-69
+apps/mcp-server/test/support/play.ts
+  s_4d10205b919a85::t_c11f23d5a70e5a 2-7,9-13,16-17,19-35,37,44-45,48,53-83,92,97-101,103,106-126,128-133,135-157,159-163,165-200,202-219
+apps/mcp-server/test/tasks.test.ts
+  s_a4cb06345ab3b8::t_4339438fa8c260 2-6,32,35,72-73,75-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a8f5f969855a35381dfade58394e0c050bd795f7",
+  "prompts": {},
+  "sessions": {
+    "s_1042204f02f1d6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a0a93974ce90ba0c4",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_1928c3dff722ba": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ac91ab3f7d92e8bf2",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_48aa9e3e9ff5fd": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a01a4e-a621-7718-bce5-38812f5c17b0",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_4d10205b919a85": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ab75b09a047716a12",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_a4cb06345ab3b8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-abb08506b32bdfc20",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_c85d1e6a21c741": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-afa08c5415308c57d",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
