@@ -1,0 +1,193 @@
+packages/durable-mcp-server/README.md
+  s_30d06de37a588c::t_3eafa1b163f373 3,5-114
+packages/durable-mcp-server/src/do/protocol.ts
+  s_48aa9e3e9ff5fd::t_91d7b8a19dd054 1-132
+packages/durable-mcp-server/src/do/task-runner.ts
+  s_30d06de37a588c::t_421c7978212467 1-1278
+packages/durable-mcp-server/src/engine/backoff.ts
+  s_30d06de37a588c::t_5a16246269198a 1-23
+packages/durable-mcp-server/src/engine/errors.ts
+  s_30d06de37a588c::t_bb0e1e8703ad5c 1-167
+packages/durable-mcp-server/src/engine/serialization.ts
+  s_30d06de37a588c::t_8d5a3461a8cc73 1-58
+packages/durable-mcp-server/src/handler/tasks-router.ts
+  s_30d06de37a588c::t_c41d1425946ae0 1-345
+packages/durable-mcp-server/src/server/create-server.ts
+  s_48aa9e3e9ff5fd::t_1e95ce9bb152da 1-17
+packages/durable-mcp-server/src/step/replay-step.ts
+  s_30d06de37a588c::t_ba2b1b38b8c540 1-282
+packages/durable-mcp-server/src/vendor/retries.ts
+  s_30d06de37a588c::t_53ad83bf6d2c5f 1-138
+packages/durable-mcp-server/src/wire/schemas.ts
+  s_30d06de37a588c::t_77e36810a32b03 1-176
+packages/durable-mcp-server/src/wire/types.ts
+  s_30d06de37a588c::t_52364810415716 1-236
+packages/durable-mcp-server/test/do/cancel.test.ts
+  s_30d06de37a588c::t_77ec3b2729e0c7 1-97
+packages/durable-mcp-server/test/do/d6-executor-addressing.test.ts
+  s_30d06de37a588c::t_82efb1da4a2f92 1-119
+packages/durable-mcp-server/test/do/execute.test.ts
+  s_534c6b8842477b::t_f73699703d190c 1-282
+packages/durable-mcp-server/test/do/run-task.test.ts
+  s_30d06de37a588c::t_8f30046a181d71 1-113
+packages/durable-mcp-server/test/do/steps.test.ts
+  s_30d06de37a588c::t_52b20403674178 1-303
+packages/durable-mcp-server/test/do/update.test.ts
+  s_30d06de37a588c::t_41efb05bf2e50f 1-165
+packages/durable-mcp-server/test/do/workflow-elicit.test.ts
+  s_30d06de37a588c::t_5dd1e38ac7c3de 1-84
+packages/durable-mcp-server/test/fixtures/env.d.ts
+  s_30d06de37a588c::t_ad4ac286af1304 1-16
+packages/durable-mcp-server/test/fixtures/ext-tasks.schema.json
+  s_30d06de37a588c::t_583fa5a8013058 1-1604
+packages/durable-mcp-server/test/fixtures/fake-executor.ts
+  s_48aa9e3e9ff5fd::t_2ce3c6bb73bea1 1-77
+packages/durable-mcp-server/test/http/composition.test.ts
+  s_30d06de37a588c::t_3e15e5c6335495 1-112
+packages/durable-mcp-server/test/http/wire-create.test.ts
+  s_48aa9e3e9ff5fd::t_db02a530713e71 1-109
+packages/durable-mcp-server/test/support/helpers.ts
+  s_30d06de37a588c::t_23d1bdda346f3b 1-115
+packages/durable-mcp-server/test/support/jsonrpc.ts
+  s_30d06de37a588c::t_ddceb7537bb5d1 1-171
+packages/durable-mcp-server/test/unit/replay-step.test.ts
+  s_30d06de37a588c::t_46dc4eaab00be1 1-313
+packages/durable-mcp-server/test/unit/retries.test.ts
+  s_30d06de37a588c::t_1d3f627b997ed9 1-198
+packages/durable-mcp-server/test/unit/wire-schemas.test.ts
+  s_30d06de37a588c::t_ba8a1881208d94 1-336
+packages/durable-mcp-server/src/do/task-entrypoint.ts
+  s_c39e5670d7f0b8::t_85a10bbd3a88b0 1-95
+packages/durable-mcp-server/src/engine/call-task-runner.ts
+  s_67ee845833ec5f::t_a28b48dfb6ea79 1-32
+packages/durable-mcp-server/src/engine/defaults.ts
+  s_67ee845833ec5f::t_012b56b1273ae9 1-26
+packages/durable-mcp-server/src/engine/duration.ts
+  s_67ee845833ec5f::t_ef0c853bf183e3 1-47
+packages/durable-mcp-server/src/handler/bindings.ts
+  s_89823a0ea26a44::t_9c168531bdf612 1-29
+packages/durable-mcp-server/src/handler/create-mcp-handler.ts
+  s_d14725cb9f0fcd::t_d25e5609a8a0ac 1-71
+packages/durable-mcp-server/src/index.ts
+  s_d14725cb9f0fcd::t_944da97367ea93 2-3,5-16,19-28,30-99
+packages/durable-mcp-server/src/server/mcp-server.ts
+  s_89823a0ea26a44::t_21febce2bd81d8 1-285
+packages/durable-mcp-server/src/step/types.ts
+  s_67ee845833ec5f::t_f6e9662fca12ed 1-85
+packages/durable-mcp-server/src/wire/index.ts
+  s_67ee845833ec5f::t_b767e8b801f623 1-8
+packages/durable-mcp-server/test/cloudflare-test.d.ts
+  s_67c3cc457ca5f6::t_16d83590a32e5e 1-5
+packages/durable-mcp-server/test/do/auth-key.test.ts
+  s_d14725cb9f0fcd::t_d8746947f55d97 1-48
+packages/durable-mcp-server/test/do/create-and-get.test.ts
+  s_89823a0ea26a44::t_d22e52ea134f94 1-159
+packages/durable-mcp-server/test/do/reconcile.test.ts
+  s_67c3cc457ca5f6::t_c33b12465127bc 1-88
+packages/durable-mcp-server/test/do/ttl.test.ts
+  s_89823a0ea26a44::t_fca40ac4d724ac 1-126
+packages/durable-mcp-server/test/do/workflow-cancel.test.ts
+  s_c39e5670d7f0b8::t_65217774cec11a 1-84
+packages/durable-mcp-server/test/do/workflow-execute.test.ts
+  s_c39e5670d7f0b8::t_7e4b2fb5c8919f 1-127
+packages/durable-mcp-server/test/do/workflow-retries.test.ts
+  s_c39e5670d7f0b8::t_9c634192d2fab7 1-173
+packages/durable-mcp-server/test/fixtures/task-state.ts
+  s_c39e5670d7f0b8::t_d9e2bb09ec5f0c 1-23
+packages/durable-mcp-server/test/fixtures/worker.ts
+  s_d14725cb9f0fcd::t_5ca389056fdd65 1-293
+packages/durable-mcp-server/test/fixtures/wrangler.jsonc
+  s_c39e5670d7f0b8::t_3568ff31580aa2 1-25
+packages/durable-mcp-server/test/http/conformance.test.ts
+  s_89823a0ea26a44::t_96acfb200418af 1-242
+packages/durable-mcp-server/test/http/flows.test.ts
+  s_d14725cb9f0fcd::t_938f750f2cc6da 1-175
+packages/durable-mcp-server/test/support/drain.ts
+  s_67c3cc457ca5f6::t_250a3e189e78e3 1-70
+packages/durable-mcp-server/test/support/expect-rejects.ts
+  s_67c3cc457ca5f6::t_8496d2fa15e703 1-23
+packages/durable-mcp-server/test/unit/backoff.test.ts
+  s_67ee845833ec5f::t_6e8f82ac4328bb 1-44
+packages/durable-mcp-server/test/unit/duration.test.ts
+  s_67ee845833ec5f::t_ff0e878975117e 1-41
+packages/durable-mcp-server/test/unit/envelope.test.ts
+  s_67ee845833ec5f::t_f9b5f83c73e2f9 1-80
+packages/durable-mcp-server/test/unit/errors.test.ts
+  s_67ee845833ec5f::t_4c94cc98b54247 1-148
+packages/durable-mcp-server/tsconfig.json
+  s_67ee845833ec5f::t_7f6ddacc59126b 3-6
+packages/durable-mcp-server/vitest.config.ts
+  s_67c3cc457ca5f6::t_c044c6dc0af799 1-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "afb704388ac5b5f59d50a5487e8bdfc9cc6ebc64",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_48aa9e3e9ff5fd": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a01a4e-a621-7718-bce5-38812f5c17b0",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_534c6b8842477b": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a02419-7f5c-7726-a145-147bdf0644e4",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_67c3cc457ca5f6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-af9ef7c1880553d28",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_67ee845833ec5f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a9278719d8808a146",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_89823a0ea26a44": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a230b25cee88242e7",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_c39e5670d7f0b8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ad92fd6cbc4fbbe9e",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_d14725cb9f0fcd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a8e47cd554216595f",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
