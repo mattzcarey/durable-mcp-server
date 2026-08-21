@@ -1,0 +1,55 @@
+apps/mcp-server/env.d.ts
+  s_30d06de37a588c::t_ce825881b16f49 2-5,9
+apps/mcp-server/package.json
+  s_30d06de37a588c::t_62fd9f5ffa596d 4
+apps/mcp-server/test/support/tasks.ts
+  s_48aa9e3e9ff5fd::t_9c48b16da6f83e 1-50
+apps/mcp-server/test/tasks.test.ts
+  s_30d06de37a588c::t_f9140ae07bf5b7 1-229
+apps/mcp-server/README.md
+  s_12e8d6d5ab8db7::t_079527a1ad2f12 3,8-10,14-15,22,31
+apps/mcp-server/src/index.ts
+  s_12e8d6d5ab8db7::t_7f6b7c406fdb3c 1,62-124,167-179,182,185
+apps/mcp-server/test/env.d.ts
+  s_12e8d6d5ab8db7::t_e50315575f6371 1
+apps/mcp-server/test/mcp-server.test.ts
+  s_12e8d6d5ab8db7::t_fd412b730a0ec2 59,71-74
+apps/mcp-server/test/support/jsonrpc.ts
+  s_12e8d6d5ab8db7::t_bdf8ed1e83875b 1-172
+apps/mcp-server/vitest.config.ts
+  s_12e8d6d5ab8db7::t_91d9ef62e35974 1,10-11
+apps/mcp-server/wrangler.jsonc
+  s_12e8d6d5ab8db7::t_94e6b6f1267f12 13-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "da534f975d9939fc3f367a245bf56fca35f43467",
+  "prompts": {},
+  "sessions": {
+    "s_12e8d6d5ab8db7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a886ca1565fd6c297",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_48aa9e3e9ff5fd": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a01a4e-a621-7718-bce5-38812f5c17b0",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
