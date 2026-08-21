@@ -1,0 +1,61 @@
+packages/durable-mcp-server/src/do/protocol.ts
+  s_30d06de37a588c::t_d4eadde971c63f 48-58,87-103
+packages/durable-mcp-server/src/do/task-runner.ts
+  s_30d06de37a588c::t_2b3bddb51502bd 142-143,190-191,254-259,482,726-733,735-740,743-747,750-752,762-763,768,773,775,785-824,937-954,957-959,966-969,971-976,978,1056-1063,1067,1104-1139,1238,1261,1283,1297-1299,1304,1317,1332
+packages/durable-mcp-server/src/index.ts
+  s_30d06de37a588c::t_cf589302effbfb 31-38
+packages/durable-mcp-server/src/step/replay-step.ts
+  s_30d06de37a588c::t_a0e147c215bb2f 32-39,191-197,199-216,218-219,224-232
+packages/durable-mcp-server/src/step/types.ts
+  s_30d06de37a588c::t_d9b79b7d7a1fe8 40-62,98-102,105-121
+packages/durable-mcp-server/test/do/cancel.test.ts
+  s_30d06de37a588c::t_ae9e45a215dd59 51
+packages/durable-mcp-server/test/do/execute.test.ts
+  s_30d06de37a588c::t_0785a520d9b571 88,115-116
+packages/durable-mcp-server/test/do/set-status.test.ts
+  s_30d06de37a588c::t_d63257660e9f32 1-162
+packages/durable-mcp-server/test/do/update.test.ts
+  s_30d06de37a588c::t_dc5b22ea30876b 36,62
+packages/durable-mcp-server/test/do/workflow-cancel.test.ts
+  s_30d06de37a588c::t_e9d4c513e0d862 39,55
+packages/durable-mcp-server/test/do/workflow-elicit.test.ts
+  s_30d06de37a588c::t_67e16339feb7f9 44
+packages/durable-mcp-server/test/do/workflow-status.test.ts
+  s_30d06de37a588c::t_59cbd69538f74e 1-82
+packages/durable-mcp-server/test/fixtures/worker.ts
+  s_30d06de37a588c::t_332582d4bb5c47 197-256
+packages/durable-mcp-server/test/http/flows.test.ts
+  s_30d06de37a588c::t_f9175ba307275a 8,15,177-278
+packages/durable-mcp-server/test/support/helpers.ts
+  s_30d06de37a588c::t_5dafa7d8291bc2 102-120
+packages/durable-mcp-server/test/unit/replay-step.test.ts
+  s_30d06de37a588c::t_31c1bdbc333791 36-37,47-54,74-75,78-80,272-274,284-356
+packages/durable-mcp-server/test/do/elicit-timeout.test.ts
+  s_006c4ac42b2aab::t_caa23c71fcdd32 1-264
+packages/durable-mcp-server/test/do/workflow-elicit-timeout.test.ts
+  s_006c4ac42b2aab::t_01fae2e1da45ad 1-146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "67ba450dca1e95a401df02081fb23ba335b41d20",
+  "prompts": {},
+  "sessions": {
+    "s_006c4ac42b2aab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a114479f677a28c19",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
