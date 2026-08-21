@@ -1,0 +1,21 @@
+apps/mcp-server/package.json
+  s_30d06de37a588c::t_c1adc342f4f15a 4,15,19
+pnpm-lock.yaml
+  s_30d06de37a588c::t_ed2a8ff9f3e364 93-95,100-102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "6ab6ee5270690a78a5d7431eb3c513b07b5ee803",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
