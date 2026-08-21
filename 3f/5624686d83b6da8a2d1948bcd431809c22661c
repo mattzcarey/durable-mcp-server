@@ -1,0 +1,61 @@
+CLAUDE.md
+  s_30d06de37a588c::t_77d6fe834ccb8f 27-28
+README.md
+  s_30d06de37a588c::t_f9c180ea758ac1 3,7-14,20,23-25
+apps/demo-client/README.md
+  s_30d06de37a588c::t_36e65266156e68 1,35,40,45-47,50
+apps/demo-client/package.json
+  s_30d06de37a588c::t_39cfd45d83c580 2
+apps/demo-client/src/client.tsx
+  s_30d06de37a588c::t_c8fa88abc11201 24,52-54,56-57,300-301,347,520-521,523-524,526,530,534
+apps/demo-client/src/components/StoryPicker.tsx
+  s_30d06de37a588c::t_cea7b1671c6727 7,19-20,53,99,146-158
+apps/demo-client/src/components/story-render.test.tsx
+  s_30d06de37a588c::t_43cbf5192ece3f 81
+apps/demo-client/src/lib/adventure.test.ts
+  s_30d06de37a588c::t_a2a28d003638e5 75
+apps/demo-client/src/lib/adventure.ts
+  s_30d06de37a588c::t_7369a39e4a706f 88,120,169
+apps/demo-client/wrangler.jsonc
+  s_30d06de37a588c::t_075cf005b2572a 2
+apps/task-server/README.md
+  s_30d06de37a588c::t_f121e9c23a4f75 1,5,61,64,69-70
+apps/task-server/package.json
+  s_30d06de37a588c::t_6fb9673bf6abb6 2
+apps/task-server/src/story/format.ts
+  s_30d06de37a588c::t_4e707c19bdfd0c 26
+apps/task-server/test/task-server.test.ts
+  s_30d06de37a588c::t_dd3d2ded0651a7 8
+apps/task-server/wrangler.jsonc
+  s_30d06de37a588c::t_de0f716fd3df6a 2
+docs/architecture.md
+  s_30d06de37a588c::t_91702272ff5f3a 18
+docs/demo-client-patches.md
+  s_30d06de37a588c::t_041cf9d563462b 3,35,37,39,41,51
+docs/testing.md
+  s_30d06de37a588c::t_3967d9c587288d 8-9,19,36,38,58-59,65,87,133
+examples/report-task/test/support/jsonrpc.ts
+  s_30d06de37a588c::t_68169713b04414 6
+examples/report-task/test/support/tasks.ts
+  s_30d06de37a588c::t_0e5c7ff3d40c7a 9
+packages/durable-mcp-server/test/support/jsonrpc.ts
+  s_30d06de37a588c::t_9ccbfd6798586f 4
+pnpm-lock.yaml
+  s_30d06de37a588c::t_f07de208b1c992 21,50,86,88,114,3555,3562
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3f5624686d83b6da8a2d1948bcd431809c22661c",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
