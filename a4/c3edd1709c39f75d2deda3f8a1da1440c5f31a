@@ -1,0 +1,21 @@
+apps/mcp-client/src/client.tsx
+  s_30d06de37a588c::t_9150ad287a4e52 34-40,406-407
+apps/mcp-client/src/lib/poll-controls.ts
+  s_30d06de37a588c::t_ae4120372cab41 20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a4c3edd1709c39f75d2deda3f8a1da1440c5f31a",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
