@@ -1,0 +1,59 @@
+apps/mcp-client/src/lib/pit-presentation.test.ts
+  s_30d06de37a588c::t_04a074bf99f034 1-237
+apps/mcp-client/src/lib/track-position.ts
+  s_30d06de37a588c::t_02c0ecf70c1181 7-10,23,29-49,124-129,168-178
+apps/mcp-client/src/components/PitWindow.tsx
+  s_ed745a9d3c8f3f::t_3ca9748d9f2a97 16-19,34-37
+apps/mcp-client/src/components/RaceTrack.tsx
+  s_ed745a9d3c8f3f::t_1dcf5e08005a7e 5
+apps/mcp-client/src/lib/lap-clock.ts
+  s_ed745a9d3c8f3f::t_47ccd5a2b06660 1-127
+apps/mcp-client/src/lib/pit-window.ts
+  s_ac327a95e89b24::t_9840c149eaa4bc 7-9,60-65,67-68
+apps/mcp-client/src/lib/race-summary.test.ts
+  s_ed745a9d3c8f3f::t_ddeb05bb7d9613 16
+apps/mcp-client/src/lib/task-radio.test.ts
+  s_ed745a9d3c8f3f::t_161fdec2892523 17
+apps/mcp-client/src/lib/tasks.test.ts
+  s_ed745a9d3c8f3f::t_5562fc3a97d9f7 143-201,318
+apps/mcp-client/src/lib/tasks.ts
+  s_ed745a9d3c8f3f::t_d5136444bd2f0e 10,51-62,177-178,194-199
+apps/mcp-client/src/lib/track-geometry.test.ts
+  s_ed745a9d3c8f3f::t_a510a3ae31c3cf 3-4,9,76-216
+apps/mcp-client/src/lib/track-geometry.ts
+  s_ed745a9d3c8f3f::t_49b1add99da680 33-45
+apps/mcp-client/src/lib/track-position.test.ts
+  s_ed745a9d3c8f3f::t_5c9bd7e9f8370c 2-3,17,104-106,111-123,131-145,148-170,173-187
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a460c2f14ae41a2096bf7bf18545c3c67bea14ac",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_ac327a95e89b24": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-afebb67692a324cc3",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_ed745a9d3c8f3f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a4179db829417f9ee",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
