@@ -1,0 +1,53 @@
+CLAUDE.md
+  s_48aa9e3e9ff5fd::t_087bf9c80b3642 19
+apps/mcp-server/README.md
+  s_dfd595f8c75010::t_df19a3d266a300 3,5,7,9,11-33,41,50
+apps/mcp-server/src/index.ts
+  s_ebe4742850f5d3::t_0ee6bb3ad9bb78 3-18,26-31,33,35-37,39-55,60-121,124-126,128
+apps/mcp-server/src/race.ts
+  s_ebe4742850f5d3::t_72ee220e53dd37 1-131
+apps/mcp-server/test/mcp-server.test.ts
+  s_ebe4742850f5d3::t_8ebc480505f46b 25,42-43,45-54,57,59-70
+apps/mcp-server/test/race-model.test.ts
+  s_dfd595f8c75010::t_3c34064c800666 1-170
+apps/mcp-server/test/race.test.ts
+  s_dfd595f8c75010::t_8825edb865a53f 1-365
+apps/mcp-server/test/support/race-sim.ts
+  s_ebe4742850f5d3::t_8033848bf6be96 1-71
+apps/mcp-server/test/support/tasks.ts
+  s_ebe4742850f5d3::t_24dc2a1c7409c3 9-10,26-31,39,41,47,60-86
+apps/mcp-server/test/tasks.test.ts
+  s_ebe4742850f5d3::t_c149e8df8e39f5 2-6,10,12,32,35,73,75-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1abaab89d474a73b54ec8211fdf9844f4f212781",
+  "prompts": {},
+  "sessions": {
+    "s_48aa9e3e9ff5fd": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a01a4e-a621-7718-bce5-38812f5c17b0",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_dfd595f8c75010": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-aaaaf21ff5c9fd725",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_ebe4742850f5d3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a27990389e8c0f761",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
