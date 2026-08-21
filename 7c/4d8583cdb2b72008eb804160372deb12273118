@@ -1,0 +1,19 @@
+pnpm-lock.yaml
+  s_30d06de37a588c::t_76126d9cc2c040 125-127,147-149,347-353,367-372,379-384,391-396,403-408,415-420,2613-2616,3268-3272,3283-3292,3556-3561,3575-3589,3608-3610,3614-3616,3620-3622,3626-3628,3632-3634,5337-5348,6138-6145,6163-6179
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "7c4d8583cdb2b72008eb804160372deb12273118",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
