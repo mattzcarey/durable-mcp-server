@@ -1,0 +1,25 @@
+design/001-durable-mcp-server.md
+  s_a60d032f93eb3b::t_1f77dd0f52e4e4 1-2
+design/002-testing.md
+  s_a60d032f93eb3b::t_7323055b05e8b3 1-2
+docs/architecture.md
+  s_a60d032f93eb3b::t_856da2d021864d 1-285
+docs/testing.md
+  s_a60d032f93eb3b::t_41d65ec057aca2 1-145
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "cb60c0fe8c69b929e1a38a0faebaa872f7504ddb",
+  "prompts": {},
+  "sessions": {
+    "s_a60d032f93eb3b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ad29211501d5b2b1d",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
