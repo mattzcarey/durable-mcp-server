@@ -1,0 +1,53 @@
+examples/report-task/env.d.ts
+  s_30d06de37a588c::t_d4fdafb5b4b746 1-20
+examples/report-task/test/cancel.test.ts
+  s_30d06de37a588c::t_6658078f5d9dbe 1-7,9-39,41-46
+examples/report-task/test/support/tasks.ts
+  s_30d06de37a588c::t_e973c1aa743331 1-135
+packages/durable-mcp-server/src/index.ts
+  s_30d06de37a588c::t_bb12410fbc8990 5
+examples/report-task/test/approve-report.test.ts
+  s_cfe266ffd0a5f4::t_9b9942bae0532b 1-89
+examples/report-task/test/conformance.test.ts
+  s_cfe266ffd0a5f4::t_3c301e869d1952 1-85
+examples/report-task/test/env.d.ts
+  s_cfe266ffd0a5f4::t_6c0d401c5c3a14 1
+examples/report-task/test/eviction.test.ts
+  s_cfe266ffd0a5f4::t_d667ee08c89147 1-49
+examples/report-task/test/send-report.test.ts
+  s_cfe266ffd0a5f4::t_245d67d4c38b74 1-72
+examples/report-task/test/support/jsonrpc.ts
+  s_cfe266ffd0a5f4::t_1532eddf47c850 1-148
+examples/report-task/test/support/report-api.js
+  s_cfe266ffd0a5f4::t_ffd7acfe84053d 1-76
+examples/report-task/tsconfig.json
+  s_cfe266ffd0a5f4::t_5050ec109de1cd 6
+examples/report-task/vitest.config.ts
+  s_cfe266ffd0a5f4::t_4d14381de82c38 1-35
+examples/report-task/wrangler.jsonc
+  s_cfe266ffd0a5f4::t_255ba4697cd0ee 1-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "170189ea3bf528556be616416870219fd4c962cb",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_cfe266ffd0a5f4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ab22b82f75b363659",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
