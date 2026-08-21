@@ -1,0 +1,53 @@
+apps/mcp-client/README.md
+  s_48aa9e3e9ff5fd::t_b20a47056119fa 3,9,11-18,20,22,26,40
+apps/mcp-client/index.html
+  s_48aa9e3e9ff5fd::t_fe0a42943f1672 7
+apps/mcp-client/src/components/InlineSvg.tsx
+  s_30d06de37a588c::t_ff511728c7de8f 1-9,11-13,16-22
+apps/mcp-client/src/components/Stage.tsx
+  s_30d06de37a588c::t_afcf8418158dad 1-138
+apps/mcp-client/src/components/StoryPicker.tsx
+  s_30d06de37a588c::t_f7098068665d04 1-204
+apps/mcp-client/src/components/Utilities.tsx
+  s_30d06de37a588c::t_53cfe333d5414a 1-116
+apps/mcp-client/src/lib/story-wire.test.ts
+  s_30d06de37a588c::t_02e7d0125e5de2 2,4-18,20,28,30-60,62-67,70-74,77-83,85-92,96-99,103-112,114-137,140-174,176-181,184-193,197-204,206-208,210,212-216,220-223,226,228-244,246-251,253-263,266-280
+apps/mcp-client/src/lib/story-wire.ts
+  s_30d06de37a588c::t_4c9133f3b9ad93 2-14,16-17,19-32,35-44,49-226,228,230,232-237,241-242,244-347,349-350
+apps/mcp-client/src/lib/crisis.test.ts
+  s_3db9e34fa0abb7::t_b298778df947b4 2,5,7,9-11,14-15,19,23-30,33-34
+apps/mcp-client/src/lib/crisis.ts
+  s_3db9e34fa0abb7::t_0529550bc7dfb0 2-7,11-12,14-19,21-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "033ee8df3795ba64f1fcd799ef7bc8cbbe8dd5bd",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_3db9e34fa0abb7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a583f66959eb910e4",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_48aa9e3e9ff5fd": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a01a4e-a621-7718-bce5-38812f5c17b0",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
