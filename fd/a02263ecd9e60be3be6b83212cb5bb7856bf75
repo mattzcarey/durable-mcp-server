@@ -1,0 +1,73 @@
+apps/demo-client/src/components/story-render.test.tsx
+  s_30d06de37a588c::t_6ffd83e11c16b1 489,501
+apps/task-server/README.md
+  s_30d06de37a588c::t_ce8dedbe5e077c 9,11
+apps/task-server/src/stories/datacenter/crisis.ts
+  s_30d06de37a588c::t_900920f2ea2842 2-11,26-31,71,87,340,344,350,354,379,419,488,495,498,524,597,601,606,623,629,646,687,755,762,768,778,803,809,815,823,835,845-847,878,930,934,944,1000,1018,1110,1306,1340,1423,1468,1510,1534,1557,1561,1564,1654,1670,1691,1696,1703,1708,1714,1746,1762,1779,1792,1798
+apps/task-server/src/stories/datacenter/land.ts
+  s_30d06de37a588c::t_98ed704c5a863b 2-11,16-22,27,30,36-37,44,55-58,63,86,91,94,96-98,104,109,115,120,132,146,152,158,163,170,176,183,187,191,197,212,230,236,257,280,330,335-336,394,398,404,408,426-428,431,462,473,482-484,490,496,515,531,553,557,588,594,614,626,639,644-645,649,660,675-677,684,690,696,702,710-712,724,755,762-764,767,795,826,886,922,954,966,988,993,1004,1008,1036,1061,1067,1081
+apps/task-server/src/stories/datacenter/power.ts
+  s_30d06de37a588c::t_7a83175107201d 2-11,17-18,21-25,27-29,33,37,39-44,48-51,53,66,75,97,119,149,160,176,232,235,239,245,261,267,273,279,333,336,339,370,376,381,389,395,401,406,472,485,500,537,540,543,559,569-571,602-604,634,640,646,652,671,674,678,684,690,699-701,708,716,719,723,741,749,754,758,796,813,818,825,850,866,895,953,959,992,999,1016,1032,1038,1076-1078,1083,1092-1094,1097,1101,1124,1130,1135,1141,1146,1155,1175,1179,1211,1217,1223,1248
+apps/task-server/src/stories/datacenter/shared.ts
+  s_30d06de37a588c::t_f9782451bc117f 2-3,83,100
+apps/task-server/src/stories/datacenter/story.ts
+  s_30d06de37a588c::t_ba71e962bdff45 2-6,8-15,19-20,26-27,43-46,54-59,80-82,94-106,124,152,159,176,184,186-187,189,205,222-223
+apps/task-server/src/stories/datacenter/supply.ts
+  s_30d06de37a588c::t_111e1f69fd46b9 2,8-11,308,317,616,655,683,687,703,767,777,781,806,818,828,847,897,923,935,949,965,990,996,1002,1104,1138,1173,1409
+apps/task-server/src/stories/odyssey/story.ts
+  s_30d06de37a588c::t_2f8f514f55d73a 2-5,79-92,1684,1699
+apps/task-server/test/adventure.test.ts
+  s_30d06de37a588c::t_5b8b9d7aec625c 45,137,163,223,343,345
+docs/architecture.md
+  s_30d06de37a588c::t_4d98651598a669 217
+apps/task-server/src/stories/datacenter/art.ts
+  s_921e98259b086e::t_a76ede98b1e44d 2-8,13,15,18-21,33-62,74,76-77,80-82,86,111-113
+apps/task-server/src/stories/datacenter/crisis-art.ts
+  s_921e98259b086e::t_f542136424c737 1-5,239,244,247,297,315-316
+apps/task-server/src/stories/datacenter/land-art.ts
+  s_921e98259b086e::t_d71afd7178f634 1-5,25-26,29,32,36-37,39-40,43-46
+apps/task-server/src/stories/datacenter/power-art.ts
+  s_921e98259b086e::t_2af57499ca8116 1-5,116
+apps/task-server/src/stories/datacenter/supply-art.ts
+  s_921e98259b086e::t_548ec81c9fe43c 36,145
+apps/task-server/test/datacenter.test.ts
+  s_921e98259b086e::t_85c3e7b35402fb 92-93,130
+apps/task-server/test/odyssey.test.ts
+  s_26194f836aaafa::t_349a14ca1c4aa4 101-105
+apps/task-server/test/story-readability.test.ts
+  s_921e98259b086e::t_678ce92c39fa37 300-301
+apps/task-server/test/story-walk.test.ts
+  s_26194f836aaafa::t_32a239636ed69e 99,116,153,163,185,195,200,217,240,256,261,270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "fda02263ecd9e60be3be6b83212cb5bb7856bf75",
+  "prompts": {},
+  "sessions": {
+    "s_26194f836aaafa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a99f08acc50a052e7",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_921e98259b086e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a85c3b77131f0f965",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
