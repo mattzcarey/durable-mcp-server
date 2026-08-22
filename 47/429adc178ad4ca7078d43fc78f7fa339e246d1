@@ -1,0 +1,77 @@
+apps/demo-client/src/components/Footer.tsx
+  s_30d06de37a588c::t_d917f6dffabf37 2,4,15-18
+apps/demo-client/src/components/story-render.test.tsx
+  s_30d06de37a588c::t_944a4f970b1460 400-401
+apps/demo-client/src/lib/copy.ts
+  s_30d06de37a588c::t_330cd7e0bf7d3d 10,32-35
+packages/durable-mcp-server/src/do/protocol.ts
+  s_30d06de37a588c::t_27265407cfb852 2,158
+packages/durable-mcp-server/src/do/task-entrypoint.ts
+  s_30d06de37a588c::t_6b8b201e7a1075 3,11,73,78,81
+packages/durable-mcp-server/src/do/task-runner.ts
+  s_30d06de37a588c::t_3a3c2792a6ecf4 3,55,109,115,119,127,280,366,375,384,424,433,512,659,724,1102,1249,1297,1356,1424,1574,1608,1643,1694
+packages/durable-mcp-server/src/engine/call-task-runner.ts
+  s_30d06de37a588c::t_ebc35d221edcac 2
+packages/durable-mcp-server/src/engine/defaults.ts
+  s_30d06de37a588c::t_dfe5b051efb6c9 2
+packages/durable-mcp-server/src/handler/bindings.ts
+  s_30d06de37a588c::t_fde68e849e54aa 3
+packages/durable-mcp-server/src/handler/create-mcp-handler.ts
+  s_30d06de37a588c::t_587eedb6310ab8 2,41
+packages/durable-mcp-server/src/handler/tasks-router.ts
+  s_30d06de37a588c::t_8880bb976525e5 2,16,57,114,202
+packages/durable-mcp-server/src/index.ts
+  s_30d06de37a588c::t_5755fc7f4b43be 3
+packages/durable-mcp-server/src/server/create-server.ts
+  s_30d06de37a588c::t_a07fa6eb1eeec0 2
+packages/durable-mcp-server/src/server/mcp-server.ts
+  s_30d06de37a588c::t_939208f44dad63 2,63,80,161,250
+packages/durable-mcp-server/src/step/replay-step.ts
+  s_30d06de37a588c::t_9e987321576048 2,57,346,360
+packages/durable-mcp-server/src/step/types.ts
+  s_30d06de37a588c::t_f561bbc713f3df 2
+packages/durable-mcp-server/src/wire/index.ts
+  s_30d06de37a588c::t_9ebf259f8a17cc 3
+packages/durable-mcp-server/src/wire/types.ts
+  s_30d06de37a588c::t_c8f79fc0f216ed 11,16
+packages/durable-mcp-server/test/do/create-and-get.test.ts
+  s_30d06de37a588c::t_bae77e76f2cc0d 138
+packages/durable-mcp-server/test/do/reconcile.test.ts
+  s_30d06de37a588c::t_f7a065dc5c0687 3
+packages/durable-mcp-server/test/do/run-task.test.ts
+  s_30d06de37a588c::t_0458579103510f 2
+packages/durable-mcp-server/test/do/ttl.test.ts
+  s_30d06de37a588c::t_c610bf381ff0ac 62
+packages/durable-mcp-server/test/do/workflow-execute.test.ts
+  s_30d06de37a588c::t_6ba58618c68259 9
+packages/durable-mcp-server/test/do/workflow-retries.test.ts
+  s_30d06de37a588c::t_726daa7102a11f 5
+packages/durable-mcp-server/test/fixtures/task-state.ts
+  s_30d06de37a588c::t_914e540029d20b 5
+packages/durable-mcp-server/test/fixtures/worker.ts
+  s_30d06de37a588c::t_3388cef7fa0b8b 4
+packages/durable-mcp-server/test/http/conformance.test.ts
+  s_30d06de37a588c::t_f41aa5826678af 2,87,124
+packages/durable-mcp-server/test/http/wire-create.test.ts
+  s_30d06de37a588c::t_57eeb125214a09 8
+packages/durable-mcp-server/test/support/drain.ts
+  s_30d06de37a588c::t_439a22d589ddd6 2
+packages/durable-mcp-server/test/support/helpers.ts
+  s_30d06de37a588c::t_5c04bd4afaa347 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "47429adc178ad4ca7078d43fc78f7fa339e246d1",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
