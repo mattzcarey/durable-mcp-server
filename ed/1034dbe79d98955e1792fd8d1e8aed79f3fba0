@@ -1,0 +1,25 @@
+apps/demo-client/src/client.tsx
+  s_30d06de37a588c::t_1475512213b9e4 274-282
+apps/demo-client/src/server.ts
+  s_30d06de37a588c::t_dcff71f4059f72 1,197-209
+packages/durable-mcp-server/test/do/workflow-status.test.ts
+  s_30d06de37a588c::t_03a63e9ceb71a2 67
+packages/durable-mcp-server/test/unit/replay-step.test.ts
+  s_30d06de37a588c::t_772781b9c5899d 235
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ed1034dbe79d98955e1792fd8d1e8aed79f3fba0",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
