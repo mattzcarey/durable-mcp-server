@@ -1,0 +1,29 @@
+CLAUDE.md
+  s_30d06de37a588c::t_2d8c63fe3c3104 32-33
+README.md
+  s_30d06de37a588c::t_1b236dae167f9b 3,5,7-44,55,59-65
+design/README.md
+  s_30d06de37a588c::t_0545c85eaac353 3,5-6,8
+design/portability.md
+  s_30d06de37a588c::t_9ba4edf81f727f 3
+examples/report-task/README.md
+  s_30d06de37a588c::t_55802887608484 3
+packages/durable-mcp-server/README.md
+  s_30d06de37a588c::t_9757cddc132f3b 128
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "c6101065a73aa98842bd242484962c0ae311a86a",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
