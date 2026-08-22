@@ -1,0 +1,23 @@
+apps/demo-client/src/components/AdventureLog.tsx
+  s_30d06de37a588c::t_d08c50ccdfc80c 15,33-34,36-42,78-80,96,100,107,110-112,126,141
+apps/demo-client/src/components/ChoicePanel.tsx
+  s_30d06de37a588c::t_8b70ed68986332 7-8,58-63,65,80-90
+apps/demo-client/src/components/story-render.test.tsx
+  s_30d06de37a588c::t_70220b556e27e5 12,237-240,242-245,253-278
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8696c47169b61f1ad0a066be263021ae966a9bc8",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
