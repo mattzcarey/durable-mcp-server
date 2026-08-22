@@ -1,0 +1,25 @@
+packages/durable-mcp-server/src/do/task-entrypoint.ts
+  s_30d06de37a588c::t_cb4b75c00a84b1 62
+packages/durable-mcp-server/src/step/replay-step.ts
+  s_30d06de37a588c::t_0f665fdfd4f37e 154-163,165-170,174-177,236-239,280-286,305,308-310,339
+packages/durable-mcp-server/test/do/workflow-status.test.ts
+  s_30d06de37a588c::t_6a2bff27f79234 46-54,61-67
+packages/durable-mcp-server/test/fixtures/worker.ts
+  s_30d06de37a588c::t_7195173139539e 254-261,266,268
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "93386f17a688b9e477534e66ce1d007d95b4cfd1",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
