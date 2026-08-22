@@ -1,0 +1,29 @@
+README.md
+  s_30d06de37a588c::t_8b42df1e4365d7 7-14
+apps/demo-client/README.md
+  s_30d06de37a588c::t_420406ce9cd604 42
+apps/demo-client/src/client.tsx
+  s_30d06de37a588c::t_f22b3568acec8f 55-56
+apps/demo-client/src/lib/copy.test.ts
+  s_30d06de37a588c::t_35c079f2dea376 12-13
+apps/demo-client/src/lib/copy.ts
+  s_30d06de37a588c::t_eff02c9a1e9811 13-14
+docs/demo-client-patches.md
+  s_30d06de37a588c::t_51742d1cac7647 35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "25405bd93116dd63c793c0e0a138f773c8cf215f",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
