@@ -1,0 +1,35 @@
+apps/demo-client/src/components/ActionBar.tsx
+  s_30d06de37a588c::t_64b26bc20dd6da 3,5,31-33,38,40-48,51
+apps/demo-client/src/components/UtilitiesDrawer.tsx
+  s_30d06de37a588c::t_44fccf72ec91ba 1-3,12-14,16-20,22-24,34-35,45-59,63,65-97,124,143-144,162-163
+apps/demo-client/src/components/CancelTask.tsx
+  s_097f2cd0909d2a::t_a6ac91ef88aaf5 1-61
+apps/demo-client/src/components/Footer.tsx
+  s_097f2cd0909d2a::t_ee935e54b96d17 1-19
+apps/demo-client/src/lib/copy.ts
+  s_097f2cd0909d2a::t_d5d31b3a783b57 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "7b195faa907b3c42c1a5a6cfd2a4de20a4597555",
+  "prompts": {},
+  "sessions": {
+    "s_097f2cd0909d2a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a4998180947237831",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
