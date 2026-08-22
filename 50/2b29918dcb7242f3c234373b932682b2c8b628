@@ -1,0 +1,23 @@
+apps/demo-client/src/components/Stage.tsx
+  s_30d06de37a588c::t_81a6669f888d91 96
+apps/demo-client/src/components/StoryPicker.tsx
+  s_30d06de37a588c::t_16feb60d5c8ece 129
+apps/demo-client/src/components/TaskList.tsx
+  s_30d06de37a588c::t_0b7327d0c4ec72 42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "502b29918dcb7242f3c234373b932682b2c8b628",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
