@@ -1,0 +1,27 @@
+apps/demo-client/src/client.tsx
+  s_30d06de37a588c::t_942a77c4e755e0 339-340,736-737
+apps/demo-client/src/components/Stage.tsx
+  s_30d06de37a588c::t_fd7a20b3da7a71 127
+apps/demo-client/src/components/StoryPicker.tsx
+  s_30d06de37a588c::t_387339d6e91bde 29,37-38,55-56
+apps/demo-client/src/components/UtilitiesDrawer.tsx
+  s_30d06de37a588c::t_1b3f15184e5e2a 33-34,46-48,104-119
+apps/demo-client/src/components/story-render.test.tsx
+  s_30d06de37a588c::t_964e9a0f989a54 200,424-425,442-443
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e95aa00005a8424b1b7cf6db90a1f08112cbe906",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
