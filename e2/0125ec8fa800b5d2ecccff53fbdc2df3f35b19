@@ -1,0 +1,21 @@
+design/ui.md
+  s_30d06de37a588c::t_cbcafd9905ff05 3,5
+docs/testing.md
+  s_30d06de37a588c::t_67930aa72d1af8 7-9,36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e20125ec8fa800b5d2ecccff53fbdc2df3f35b19",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
