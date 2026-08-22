@@ -1,0 +1,19 @@
+packages/durable-mcp-server/test/unit/replay-step.test.ts
+  s_30d06de37a588c::t_daaf68ee9eaaa8 263,269,292,317,325,333-335
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "5f77017a390f941e0a695ddd22cef84a58e92718",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
