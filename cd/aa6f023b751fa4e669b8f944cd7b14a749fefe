@@ -1,0 +1,601 @@
+pnpm-lock.yaml
+  s_e291b6ea0564e8::t_5167ac91e651aa 1-6220
+.oxlintrc.json
+  s_e291b6ea0564e8::t_b97a5cddc68b86 1-13
+README.md
+  s_30d06de37a588c::t_0e4ab5177de61a 1-65
+apps/demo-client/env.d.ts
+  s_e291b6ea0564e8::t_624d9c77a16216 1-13
+apps/demo-client/package.json
+  s_30d06de37a588c::t_c10f403201a129 1-39
+apps/demo-client/src/client.tsx
+  s_30d06de37a588c::t_361fff73497fc9 1-796
+apps/demo-client/src/components/ActionBar.tsx
+  s_30d06de37a588c::t_8048363be0cbb9 1-55
+apps/demo-client/src/components/AdventureLog.tsx
+  s_30d06de37a588c::t_66ec8890e7215c 1-170
+apps/demo-client/src/components/ChoicePanel.tsx
+  s_30d06de37a588c::t_9854bb92424573 1-121
+apps/demo-client/src/components/Footer.tsx
+  s_30d06de37a588c::t_44a3fa61e15b83 1-23
+apps/demo-client/src/components/InlineSvg.tsx
+  s_30d06de37a588c::t_77da339fb3ed0a 1-24
+apps/demo-client/src/components/Stage.tsx
+  s_30d06de37a588c::t_a4c4f93a35a686 1-138
+apps/demo-client/src/components/StoryPicker.tsx
+  s_30d06de37a588c::t_36dfeaa03f6891 1-161
+apps/demo-client/src/components/TaskList.tsx
+  s_30d06de37a588c::t_9c2926c6eb3c5b 1-82
+apps/demo-client/src/components/UtilitiesDrawer.tsx
+  s_30d06de37a588c::t_ea8dd73791125e 1-186
+apps/demo-client/src/components/story-render.test.tsx
+  s_30d06de37a588c::t_edbec02250261c 1-822
+apps/demo-client/src/lib/copy.ts
+  s_30d06de37a588c::t_51d8cea5dadb7c 1-36
+apps/demo-client/src/lib/story-wire.test.ts
+  s_30d06de37a588c::t_bf3d4a98c21f50 1-282
+apps/demo-client/src/lib/story-wire.ts
+  s_30d06de37a588c::t_7ca7345185c2cb 1-351
+apps/demo-client/src/lib/task-list.test.ts
+  s_30d06de37a588c::t_01b241a58b550d 1-121
+apps/demo-client/src/lib/task-list.ts
+  s_30d06de37a588c::t_710d96ac9e9903 1-146
+apps/demo-client/src/lib/tasks.ts
+  s_30d06de37a588c::t_b4b46d42964c97 1-286
+apps/demo-client/src/mcp-tasks/schema.ts
+  s_48aa9e3e9ff5fd::t_7677baf21ba32f 1-180
+apps/demo-client/src/server.ts
+  s_30d06de37a588c::t_d5677b82a5823a 1-837
+apps/demo-client/vite.config.ts
+  s_e291b6ea0564e8::t_63449b5aea0108 1-16
+apps/demo-client/wrangler.jsonc
+  s_30d06de37a588c::t_ce63dbef2d31b5 1-32
+apps/task-server/README.md
+  s_30d06de37a588c::t_1b5cce8ac0b5ec 1-73
+apps/task-server/env.d.ts
+  s_30d06de37a588c::t_dcb2179a108187 1-13
+apps/task-server/package.json
+  s_30d06de37a588c::t_3bf0cea9818668 1-25
+apps/task-server/src/index.ts
+  s_30d06de37a588c::t_256f1ebc593cd4 1-153
+apps/task-server/src/stories/datacenter/land.ts
+  s_30d06de37a588c::t_ad01ed45c2cf70 1-1093
+apps/task-server/src/stories/datacenter/power.ts
+  s_30d06de37a588c::t_377c71ddca8947 1-1253
+apps/task-server/src/stories/datacenter/shared.ts
+  s_30d06de37a588c::t_dc10aa0b0cfc74 1-110
+apps/task-server/src/stories/datacenter/story.ts
+  s_30d06de37a588c::t_0bb86f6daf5c43 1-239
+apps/task-server/src/stories/datacenter/supply.ts
+  s_30d06de37a588c::t_80c34ed891373a 1-1458
+apps/task-server/src/stories/odyssey/art.ts
+  s_30d06de37a588c::t_453ed066a7e1fb 1-465
+apps/task-server/src/stories/odyssey/story.ts
+  s_30d06de37a588c::t_1da75f65ef925d 1-1707
+apps/task-server/src/story/format.ts
+  s_30d06de37a588c::t_fef294ec4eb4a6 1-392
+apps/task-server/src/story/uris.ts
+  s_48aa9e3e9ff5fd::t_c81c5192a9bed2 1-18
+apps/task-server/src/story/validate.ts
+  s_30d06de37a588c::t_f3199f651cc995 1-377
+apps/task-server/test/adventure.test.ts
+  s_30d06de37a588c::t_644aab0a2159c8 1-357
+apps/task-server/test/stories.test.ts
+  s_30d06de37a588c::t_7b131b0678f28c 1-220
+apps/task-server/test/support/story-sim.ts
+  s_30d06de37a588c::t_2a3edcfefb7fdc 1-273
+apps/task-server/test/task-server.test.ts
+  s_30d06de37a588c::t_fdbecadc26a90a 1-110
+apps/task-server/wrangler.jsonc
+  s_30d06de37a588c::t_eef160dcb4dac1 1-20
+design/README.md
+  s_30d06de37a588c::t_3edd9eef56212a 1-8
+design/portability.md
+  s_30d06de37a588c::t_597d16226029bf 1-189
+examples/report-task/README.md
+  s_30d06de37a588c::t_8102b3e2baf0f6 1-81
+examples/report-task/env.d.ts
+  s_30d06de37a588c::t_16f0f6d79224a4 1-20
+examples/report-task/test/cancel.test.ts
+  s_30d06de37a588c::t_82fbecf3373b39 1-47
+examples/report-task/test/support/jsonrpc.ts
+  s_30d06de37a588c::t_4de20fa31d6dbb 1-148
+examples/report-task/test/support/tasks.ts
+  s_30d06de37a588c::t_03690000221e8d 1-135
+package.json
+  s_e291b6ea0564e8::t_acc52219028aca 1-21
+packages/durable-mcp-server/README.md
+  s_30d06de37a588c::t_79ccc44a13c3b1 1-136
+packages/durable-mcp-server/src/do/protocol.ts
+  s_30d06de37a588c::t_56227722f0bf98 1-189
+packages/durable-mcp-server/src/do/task-entrypoint.ts
+  s_30d06de37a588c::t_3446a24dcd6a1b 1-95
+packages/durable-mcp-server/src/do/task-runner.ts
+  s_30d06de37a588c::t_7f46d1e4716f0c 1-1760
+packages/durable-mcp-server/src/engine/backoff.ts
+  s_30d06de37a588c::t_5d4ea98b49017e 1-23
+packages/durable-mcp-server/src/engine/call-task-runner.ts
+  s_30d06de37a588c::t_ae3c0d8f973d93 1-32
+packages/durable-mcp-server/src/engine/defaults.ts
+  s_30d06de37a588c::t_cd9762c7870d17 1-26
+packages/durable-mcp-server/src/engine/errors.ts
+  s_30d06de37a588c::t_a1950a70b5f7f3 1-167
+packages/durable-mcp-server/src/engine/serialization.ts
+  s_30d06de37a588c::t_bdb2132e1a90bf 1-58
+packages/durable-mcp-server/src/handler/bindings.ts
+  s_30d06de37a588c::t_8e0fc4789e7287 1-29
+packages/durable-mcp-server/src/handler/create-mcp-handler.ts
+  s_30d06de37a588c::t_421fb5c430d4d2 1-71
+packages/durable-mcp-server/src/handler/tasks-router.ts
+  s_30d06de37a588c::t_ada36f19d171e8 1-355
+packages/durable-mcp-server/src/index.ts
+  s_30d06de37a588c::t_7a4c3e3fb40d7a 1-111
+packages/durable-mcp-server/src/server/create-server.ts
+  s_30d06de37a588c::t_763478d959a8f9 1-17
+packages/durable-mcp-server/src/server/mcp-server.ts
+  s_30d06de37a588c::t_6042782158d8b6 1-285
+packages/durable-mcp-server/src/step/replay-step.ts
+  s_30d06de37a588c::t_8fe340e7fda4d7 1-384
+packages/durable-mcp-server/src/step/types.ts
+  s_30d06de37a588c::t_a042bddfdaeaf5 1-183
+packages/durable-mcp-server/src/vendor/retries.ts
+  s_30d06de37a588c::t_b292b31d9753a9 1-138
+packages/durable-mcp-server/src/wire/index.ts
+  s_30d06de37a588c::t_b4d14130c746c5 1-8
+packages/durable-mcp-server/src/wire/schemas.ts
+  s_30d06de37a588c::t_82f86d53bb7517 1-176
+packages/durable-mcp-server/src/wire/types.ts
+  s_30d06de37a588c::t_3e4a5398bc3ef9 1-236
+packages/durable-mcp-server/test/do/cancel.test.ts
+  s_30d06de37a588c::t_0600829b05c466 1-97
+packages/durable-mcp-server/test/do/create-and-get.test.ts
+  s_30d06de37a588c::t_cbdf5fc99b37b5 1-159
+packages/durable-mcp-server/test/do/d6-executor-addressing.test.ts
+  s_30d06de37a588c::t_822924c378b8ac 1-119
+packages/durable-mcp-server/test/do/execute.test.ts
+  s_30d06de37a588c::t_2a42fec10eb6de 1-282
+packages/durable-mcp-server/test/do/inflight-wake.test.ts
+  s_30d06de37a588c::t_41f9f34c7b2116 1-258
+packages/durable-mcp-server/test/do/reconcile.test.ts
+  s_30d06de37a588c::t_adb5f2ba118e44 1-88
+packages/durable-mcp-server/test/do/run-task.test.ts
+  s_30d06de37a588c::t_9f357cd380f121 1-113
+packages/durable-mcp-server/test/do/set-status.test.ts
+  s_30d06de37a588c::t_2c84166251f066 1-162
+packages/durable-mcp-server/test/do/status-meta.test.ts
+  s_30d06de37a588c::t_190c1afe76baa3 1-206
+packages/durable-mcp-server/test/do/steps.test.ts
+  s_30d06de37a588c::t_9e51fe8b8be58c 1-303
+packages/durable-mcp-server/test/do/ttl.test.ts
+  s_30d06de37a588c::t_c21a5980c72d68 1-126
+packages/durable-mcp-server/test/do/update.test.ts
+  s_30d06de37a588c::t_6c72f2178c41ca 1-165
+packages/durable-mcp-server/test/do/workflow-cancel.test.ts
+  s_30d06de37a588c::t_155004994c7b9f 1-84
+packages/durable-mcp-server/test/do/workflow-elicit.test.ts
+  s_30d06de37a588c::t_725ac09679e8b4 1-84
+packages/durable-mcp-server/test/do/workflow-execute.test.ts
+  s_30d06de37a588c::t_5c5e729a1edfa1 1-127
+packages/durable-mcp-server/test/do/workflow-offer.test.ts
+  s_30d06de37a588c::t_aed369eccc2574 1-243
+packages/durable-mcp-server/test/do/workflow-retries.test.ts
+  s_30d06de37a588c::t_4038399dc9bf56 1-173
+packages/durable-mcp-server/test/do/workflow-status.test.ts
+  s_30d06de37a588c::t_8eca4051561e82 1-95
+packages/durable-mcp-server/test/fixtures/env.d.ts
+  s_30d06de37a588c::t_0267fff20a073c 1-16
+packages/durable-mcp-server/test/fixtures/ext-tasks.schema.json
+  s_30d06de37a588c::t_583c78150adc9d 1-1604
+packages/durable-mcp-server/test/fixtures/fake-executor.ts
+  s_48aa9e3e9ff5fd::t_d8ca167afd2f6c 1-77
+packages/durable-mcp-server/test/fixtures/task-state.ts
+  s_30d06de37a588c::t_ef665a236b2f5c 1-23
+packages/durable-mcp-server/test/fixtures/worker.ts
+  s_30d06de37a588c::t_c328d2ebe02f6f 1-460
+packages/durable-mcp-server/test/http/composition.test.ts
+  s_30d06de37a588c::t_2e25bd5b608552 1-112
+packages/durable-mcp-server/test/http/conformance.test.ts
+  s_30d06de37a588c::t_85d28841901d74 1-242
+packages/durable-mcp-server/test/http/flows.test.ts
+  s_30d06de37a588c::t_ee73f881affd8c 1-278
+packages/durable-mcp-server/test/http/wire-create.test.ts
+  s_30d06de37a588c::t_320b8e56d18bf3 1-109
+packages/durable-mcp-server/test/support/drain.ts
+  s_30d06de37a588c::t_67d1da6caf0f44 1-70
+packages/durable-mcp-server/test/support/helpers.ts
+  s_30d06de37a588c::t_656f315eb93c5c 1-134
+packages/durable-mcp-server/test/support/jsonrpc.ts
+  s_30d06de37a588c::t_e8e196a33fced8 1-171
+packages/durable-mcp-server/test/unit/replay-step.test.ts
+  s_30d06de37a588c::t_088a93338c17fa 1-539
+packages/durable-mcp-server/test/unit/retries.test.ts
+  s_30d06de37a588c::t_4ca18e6247e6a2 1-198
+packages/durable-mcp-server/test/unit/wire-schemas.test.ts
+  s_30d06de37a588c::t_1e0606a909b60e 1-336
+apps/demo-client/README.md
+  s_e69a1031c23ec1::t_8637ee87d50c93 1-62
+apps/demo-client/index.html
+  s_097f2cd0909d2a::t_fe30224fc860f8 1-24
+apps/demo-client/src/components/CancelTask.tsx
+  s_097f2cd0909d2a::t_5a7928e05917c2 1-61
+apps/demo-client/src/components/EndingCard.tsx
+  s_11a47eb9ce9cd1::t_9a674e86918047 1-63
+apps/demo-client/src/components/Hint.tsx
+  s_3e5245ffa3fce9::t_ebc59dcf419105 1-60
+apps/demo-client/src/components/PhaseChecklist.tsx
+  s_3db9e34fa0abb7::t_d4490c31a73ce5 1-86
+apps/demo-client/src/components/PlaythroughView.tsx
+  s_e69a1031c23ec1::t_9f2c0fae2dc3c9 1-202
+apps/demo-client/src/components/RouteLink.tsx
+  s_11a47eb9ce9cd1::t_898582078fa3a2 1-34
+apps/demo-client/src/lib/crisis.test.ts
+  s_3db9e34fa0abb7::t_0ac534ab1abf6e 1-36
+apps/demo-client/src/lib/crisis.ts
+  s_3db9e34fa0abb7::t_cab5af267c1fa5 1-27
+apps/demo-client/src/lib/playthrough.test.ts
+  s_26194f836aaafa::t_7bfb6b7e537e7c 1-634
+apps/demo-client/src/lib/playthrough.ts
+  s_e69a1031c23ec1::t_199d0ba5bd9a09 1-530
+apps/demo-client/src/lib/poll-controls.test.ts
+  s_9876f89a7ee324::t_0d7b1aca9bd43e 1-49
+apps/demo-client/src/lib/poll-controls.ts
+  s_097f2cd0909d2a::t_a3c7a9e9855fd0 1-48
+apps/demo-client/src/lib/route.test.ts
+  s_11a47eb9ce9cd1::t_585e786dee91c2 1-39
+apps/demo-client/src/lib/route.ts
+  s_11a47eb9ce9cd1::t_9f541d4e025210 1-42
+apps/demo-client/src/lib/story-resources.test.ts
+  s_13a06516389c44::t_e4a21ca5d36cab 1-125
+apps/demo-client/src/lib/story-resources.ts
+  s_13a06516389c44::t_9a843475747e59 1-174
+apps/demo-client/src/lib/tasks.test.ts
+  s_e69a1031c23ec1::t_993788c2d5511c 1-374
+apps/demo-client/src/mcp-tasks/schema.test.ts
+  s_9876f89a7ee324::t_617e4e0460ff4f 1-167
+apps/demo-client/src/mcp-tasks/task-lane.test.ts
+  s_9876f89a7ee324::t_a84c1ed5316319 1-523
+apps/demo-client/src/mcp-tasks/task-lane.ts
+  s_9876f89a7ee324::t_2e2a442d9df9c8 1-415
+apps/demo-client/src/styles.css
+  s_11a47eb9ce9cd1::t_d1e07b615630ba 1-195
+apps/demo-client/tsconfig.json
+  s_097f2cd0909d2a::t_72e31897619ee9 1-7
+apps/demo-client/vitest.config.ts
+  s_3db9e34fa0abb7::t_d0479037c31a0f 1-8
+apps/task-server/src/stories/datacenter/art.ts
+  s_921e98259b086e::t_707bf605fbc86f 1-287
+apps/task-server/src/stories/datacenter/crisis-art.ts
+  s_921e98259b086e::t_091cae241ccea6 1-419
+apps/task-server/src/stories/datacenter/land-art.ts
+  s_921e98259b086e::t_0e1be59fa7c593 1-89
+apps/task-server/src/stories/datacenter/power-art.ts
+  s_921e98259b086e::t_c0331f0853c179 1-154
+apps/task-server/src/stories/datacenter/supply-art.ts
+  s_921e98259b086e::t_16d29382af26b6 1-187
+apps/task-server/src/stories/index.ts
+  s_a4cb06345ab3b8::t_845e926af060e6 1-8
+apps/task-server/src/story/index.ts
+  s_a4cb06345ab3b8::t_cbaba29ab3941a 1-50
+apps/task-server/src/story/resources.ts
+  s_a4cb06345ab3b8::t_c452affe25e2e7 1-90
+apps/task-server/src/story/svg.ts
+  s_a4cb06345ab3b8::t_b33193fb011dfd 1-25
+apps/task-server/src/story/walk.ts
+  s_a4cb06345ab3b8::t_23c61d3b532e35 1-444
+apps/task-server/test/datacenter.test.ts
+  s_921e98259b086e::t_9de8b181c03b59 1-230
+apps/task-server/test/env.d.ts
+  s_12e8d6d5ab8db7::t_f86a7ae2f67390 1
+apps/task-server/test/odyssey.test.ts
+  s_26194f836aaafa::t_a764ae69b522d0 1-187
+apps/task-server/test/story-readability.test.ts
+  s_921e98259b086e::t_65b254444ec5c3 1-305
+apps/task-server/test/story-validate.test.ts
+  s_a4cb06345ab3b8::t_e3b1cb6611efa2 1-456
+apps/task-server/test/story-walk.test.ts
+  s_26194f836aaafa::t_faa7dde4e42acc 1-342
+apps/task-server/test/support/datacenter-routes.ts
+  s_4d10205b919a85::t_b681bbf3a05edc 1-152
+apps/task-server/test/support/fixture-story.ts
+  s_a4cb06345ab3b8::t_3b4fa444202269 1-283
+apps/task-server/test/support/jsonrpc.ts
+  s_a4cb06345ab3b8::t_45b6d5e2609078 1-172
+apps/task-server/test/support/play.ts
+  s_4d10205b919a85::t_39b671b443bf3b 1-219
+apps/task-server/test/support/tasks.ts
+  s_c85d1e6a21c741::t_12866c6b7cbc40 1-59
+apps/task-server/test/tasks.test.ts
+  s_a4cb06345ab3b8::t_0a7bb3929c5fec 1-86
+apps/task-server/tsconfig.json
+  s_b15f7cb055ae0f::t_9d94c627e83f25 1-7
+apps/task-server/vitest.config.ts
+  s_12e8d6d5ab8db7::t_06c059486ebd08 1-17
+design/brief.md
+  s_b92b9727a23346::t_f165213e718f72 1-71
+docs/README.md
+  s_b92b9727a23346::t_e6196464ac3bf6 1-11
+docs/demo.md
+  s_b92b9727a23346::t_65ff9001beb390 1-472
+docs/how-it-works.md
+  s_b92b9727a23346::t_6d8b9ae9850d37 1-805
+docs/testing.md
+  s_b92b9727a23346::t_d2654cecd288b8 1-335
+examples/report-task/src/index.ts
+  s_425f0f03078804::t_4330c4d0dfacff 1-115
+examples/report-task/test/conformance.test.ts
+  s_cfe266ffd0a5f4::t_f436da9ee8d56d 1-85
+examples/report-task/test/env.d.ts
+  s_cfe266ffd0a5f4::t_370a1f356702db 1
+examples/report-task/test/eviction.test.ts
+  s_cfe266ffd0a5f4::t_59a4d6cb99eb02 1-49
+examples/report-task/test/send-report.test.ts
+  s_cfe266ffd0a5f4::t_f729584cffa674 1-72
+examples/report-task/test/support/report-api.js
+  s_cfe266ffd0a5f4::t_c323a3401e2f7e 1-76
+examples/report-task/tsconfig.json
+  s_cfe266ffd0a5f4::t_ae52ba3c2471cc 1-7
+examples/report-task/vitest.config.ts
+  s_cfe266ffd0a5f4::t_b1a0d2791673de 1-35
+examples/report-task/wrangler.jsonc
+  s_cfe266ffd0a5f4::t_1a71aec89e2466 1-19
+packages/durable-mcp-server/src/engine/duration.ts
+  s_67ee845833ec5f::t_77788a1458cb4d 1-47
+packages/durable-mcp-server/test/cloudflare-test.d.ts
+  s_67c3cc457ca5f6::t_4c1fcc7e60d86d 1-5
+packages/durable-mcp-server/test/do/auth-key.test.ts
+  s_d14725cb9f0fcd::t_58b6f1eb632f33 1-48
+packages/durable-mcp-server/test/do/elicit-timeout.test.ts
+  s_006c4ac42b2aab::t_a889c398e531e0 1-264
+packages/durable-mcp-server/test/do/offer.test.ts
+  s_166bab338de157::t_a27604a448b8b6 1-421
+packages/durable-mcp-server/test/do/workflow-elicit-timeout.test.ts
+  s_006c4ac42b2aab::t_ed99452b1dbc24 1-146
+packages/durable-mcp-server/test/do/workflow-status-meta.test.ts
+  s_166bab338de157::t_36129d5086f278 1-85
+packages/durable-mcp-server/test/fixtures/wrangler.jsonc
+  s_c39e5670d7f0b8::t_31a071b113df06 1-25
+packages/durable-mcp-server/test/http/offer-flows.test.ts
+  s_166bab338de157::t_a9ce5fe7135291 1-139
+packages/durable-mcp-server/test/http/status-meta.test.ts
+  s_166bab338de157::t_0ef8be3ed43e20 1-76
+packages/durable-mcp-server/test/support/expect-rejects.ts
+  s_67c3cc457ca5f6::t_d74df371abc05d 1-23
+packages/durable-mcp-server/test/unit/backoff.test.ts
+  s_67ee845833ec5f::t_b2857b835b5626 1-44
+packages/durable-mcp-server/test/unit/duration.test.ts
+  s_67ee845833ec5f::t_b534f81ce1efe9 1-41
+packages/durable-mcp-server/test/unit/envelope.test.ts
+  s_67ee845833ec5f::t_894f1692fae028 1-80
+packages/durable-mcp-server/test/unit/errors.test.ts
+  s_67ee845833ec5f::t_676fbf4c76df5d 1-148
+packages/durable-mcp-server/tsconfig.build.json
+  s_55b8f029f63bd3::t_de8011b8a853ba 1-13
+packages/durable-mcp-server/tsconfig.json
+  s_67ee845833ec5f::t_f56b4b8d0b669a 1-7
+packages/durable-mcp-server/vitest.config.ts
+  s_67c3cc457ca5f6::t_6fb978163662e7 1-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "cdaa6f023b751fa4e669b8f944cd7b14a749fefe",
+  "prompts": {},
+  "sessions": {
+    "s_006c4ac42b2aab": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a114479f677a28c19",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_097f2cd0909d2a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a4998180947237831",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_11a47eb9ce9cd1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-af8903904b2ba4e64",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_12e8d6d5ab8db7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a886ca1565fd6c297",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_13a06516389c44": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ab77b6c970b0e8582",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_166bab338de157": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a4249e54b2888269e",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_26194f836aaafa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a99f08acc50a052e7",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_3db9e34fa0abb7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a583f66959eb910e4",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_3e5245ffa3fce9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a9f38709937097c89",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_425f0f03078804": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ad062037c930599bb",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_48aa9e3e9ff5fd": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a01a4e-a621-7718-bce5-38812f5c17b0",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_4d10205b919a85": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ab75b09a047716a12",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_55b8f029f63bd3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a2c130900ee559d75",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_67c3cc457ca5f6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-af9ef7c1880553d28",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_67ee845833ec5f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a9278719d8808a146",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_921e98259b086e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a85c3b77131f0f965",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_9876f89a7ee324": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a7178d4b2c4a81681",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_a4cb06345ab3b8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-abb08506b32bdfc20",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_b15f7cb055ae0f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-af14ffa0741a9afad",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_b92b9727a23346": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a3805eca65a809a68",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_c39e5670d7f0b8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ad92fd6cbc4fbbe9e",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_c85d1e6a21c741": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-afa08c5415308c57d",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_cfe266ffd0a5f4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-ab22b82f75b363659",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_d14725cb9f0fcd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a8e47cd554216595f",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_e291b6ea0564e8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8cd21cee-1178-42b6-a5aa-880dc8ae6449",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    },
+    "s_e69a1031c23ec1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-af624d24ed1230e3e",
+        "model": "unknown"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
