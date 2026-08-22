@@ -1,0 +1,21 @@
+apps/demo-client/src/components/AdventureLog.tsx
+  s_30d06de37a588c::t_0208c1999d282b 129
+apps/demo-client/src/components/story-render.test.tsx
+  s_30d06de37a588c::t_103d26290fd643 457-466
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8e7a44a96c28d1a9fef107a7520569e521e35fab",
+  "prompts": {},
+  "sessions": {
+    "s_30d06de37a588c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2b5701f3-887e-49d2-b481-81ee7ab9e066",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Matt Carey <mcarey@cloudflare.com>"
+    }
+  }
+}
