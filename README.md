@@ -2,7 +2,7 @@
 
 MCP Tasks for stateless MCP servers on Cloudflare Workers, backed by Durable Objects.
 
-`registerTask` is `registerTool` for long-running work: the handler runs as a durable, replayable workflow (`step.do`, `step.sleep`, `step.elicit`, `step.status`, `step.offer`), and the MCP Tasks extension methods (`tasks/get`, `tasks/update`, `tasks/cancel`) route straight to per-task storage. It is additive over the official `@modelcontextprotocol/server` v2 SDK.
+`registerTask` for long-running work: the handler runs as a durable, replayable workflow and the MCP Tasks extension methods route straight to per-task storage. It is additive over the official `@modelcontextprotocol/server` v2 SDK.
 
 ```ts
 import { createMcpHandler, createTaskEntrypoint, McpServer, TaskRunner } from "durable-mcp-server";
